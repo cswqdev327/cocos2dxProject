@@ -64,6 +64,18 @@ var HelloWorldScene = cc.Scene.extend({
         this._super();
         var layer = new HelloWorldLayer();
         this.addChild(layer);
-    }
+
+        cc.eventManager.addListener({
+           event : cc.EventListener.KEYBOARD,
+           onKeyPressed: function( keyCode, event ) {
+               if( keyCode === cc.KEY.back ) {
+                    cc.log( "backbutton clicked" );
+               }
+           }
+        }, this);
+
+    },
+
+
 });
 
