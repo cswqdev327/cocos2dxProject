@@ -55,6 +55,9 @@ var HelloWorldLayer = cc.Layer.extend({
         });
         this.addChild(this.sprite, 0);
 
+        sdkbox.PluginFacebook.init();
+        sdkbox.PluginFacebook.login();
+
         return true;
     }
 });
