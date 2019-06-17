@@ -58,6 +58,10 @@ var HelloWorldLayer = cc.Layer.extend({
         sdkbox.PluginFacebook.init();
         sdkbox.PluginFacebook.login();
 
+        sdkbox.PluginFacebook.inviteFriends(
+            "https://fb.me/322164761287181",
+            "http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png");
+
         return true;
     }
 });
