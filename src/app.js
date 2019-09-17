@@ -34,6 +34,7 @@ var HelloWorldLayer = cc.Layer.extend({
         // test hotfix commit 02
         // test hotfix commit 03
         // test hotfix commit 04
+        // test hotfix commit 05
 
         /////////////////////////////
         // 2. add a menu item with "X" image, which is clicked to quit the program
