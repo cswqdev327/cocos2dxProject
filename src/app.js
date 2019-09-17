@@ -55,7 +55,7 @@ var HelloWorldLayer = cc.Layer.extend({
         });
         this.addChild(this.sprite, 0);
 
-        // test commit 1
+        // test commit 01
 
         return true;
     }
