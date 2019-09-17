@@ -69,6 +69,8 @@ var HelloWorldLayer = cc.Layer.extend({
         // test commit 04
         // test commit 05
 
+        // dev commit 10
+
         return true;
     }
 });
